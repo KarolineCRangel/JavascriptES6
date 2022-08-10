@@ -1,0 +1,1 @@
+O projeto realizado neste curso será o Animais fantásticos, uma página voltada para doações para ajudar animais.
