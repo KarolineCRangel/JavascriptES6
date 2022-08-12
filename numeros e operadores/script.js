@@ -13,6 +13,17 @@ var mult = 60*2;
 var div = 56/2;
 var modulo = 59%3;
 
+//operadores de atribuição
+var x = 5;
+var y = 10;
+x += y; // x = x + y (15)
+x -= y; // x = x - y (-5)
+x *= y; // x = x * y (50)
+x /= y; // x = x / y (0.5)
+x %= y; // x = x % y (0)
+x **= y; // x = x ** y (9765625)
+
+
 //string e number
 
 var numero = 30;
@@ -28,10 +39,10 @@ console.log(isNaN(testeNaN));
 console.log(testeNaN);
 
 //incremento
-var x = 1;
-console.log(x);
-console.log(++x);
-console.log(--x);
+var j = 1;
+console.log(j);
+console.log(++j);
+console.log(--j);
 
 var idade = '28';
 var somaIdade = 5;
@@ -58,8 +69,8 @@ var num6 = 50;
 var total = +num5 + num6; 
 console.log(total)
 // Incremente o número 5 e retorne o seu valor incrementado
-var y = 5;
-console.log(++y);
+var i = 5;
+console.log(++i);
 
 // Como dividir o peso por 2?
 var numero = +'80'/2;
